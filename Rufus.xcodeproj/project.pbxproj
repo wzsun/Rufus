@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DECEB2721B2E20980073BCC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEB2711B2E20980073BCC3 /* AppDelegate.swift */; };
+		DECEB2751B2E20980073BCC3 /* Rufus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DECEB2731B2E20980073BCC3 /* Rufus.xcdatamodeld */; };
+		DECEB27C1B2E20980073BCC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECEB27B1B2E20980073BCC3 /* Images.xcassets */; };
+		DECEB28B1B2E20980073BCC3 /* RufusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEB28A1B2E20980073BCC3 /* RufusTests.swift */; };
+		DECEB2971B2E20B00073BCC3 /* ChapterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEB2941B2E20B00073BCC3 /* ChapterTableViewController.swift */; };
+		DECEB2981B2E20B00073BCC3 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEB2951B2E20B00073BCC3 /* ImageViewController.swift */; };
+		DECEB2991B2E20B00073BCC3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEB2961B2E20B00073BCC3 /* SearchViewController.swift */; };
+		DECEB29E1B2E20D30073BCC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECEB29A1B2E20D30073BCC3 /* LaunchScreen.xib */; };
+		DECEB29F1B2E20D30073BCC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECEB29C1B2E20D30073BCC3 /* Main.storyboard */; };
+		DECEB2A11B2E20FE0073BCC3 /* asu_pid.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = DECEB2A01B2E20FE0073BCC3 /* asu_pid.entitlements */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DECEB2851B2E20980073BCC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECEB2641B2E20980073BCC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECEB26B1B2E20980073BCC3;
+			remoteInfo = Rufus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DECEB26C1B2E20980073BCC3 /* Rufus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rufus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECEB2701B2E20980073BCC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECEB2711B2E20980073BCC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DECEB2741B2E20980073BCC3 /* Rufus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rufus.xcdatamodel; sourceTree = "<group>"; };
+		DECEB27B1B2E20980073BCC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DECEB2841B2E20980073BCC3 /* RufusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RufusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECEB2891B2E20980073BCC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECEB28A1B2E20980073BCC3 /* RufusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RufusTests.swift; sourceTree = "<group>"; };
+		DECEB2941B2E20B00073BCC3 /* ChapterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterTableViewController.swift; sourceTree = "<group>"; };
+		DECEB2951B2E20B00073BCC3 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		DECEB2961B2E20B00073BCC3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DECEB29B1B2E20D30073BCC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DECEB29D1B2E20D30073BCC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DECEB2A01B2E20FE0073BCC3 /* asu_pid.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = asu_pid.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECEB2691B2E20980073BCC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECEB2811B2E20980073BCC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECEB2631B2E20980073BCC3 = {
+			isa = PBXGroup;
+			children = (
+				DECEB2A01B2E20FE0073BCC3 /* asu_pid.entitlements */,
+				DECEB26E1B2E20980073BCC3 /* Rufus */,
+				DECEB2871B2E20980073BCC3 /* RufusTests */,
+				DECEB26D1B2E20980073BCC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECEB26D1B2E20980073BCC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECEB26C1B2E20980073BCC3 /* Rufus.app */,
+				DECEB2841B2E20980073BCC3 /* RufusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECEB26E1B2E20980073BCC3 /* Rufus */ = {
+			isa = PBXGroup;
+			children = (
+				DECEB2941B2E20B00073BCC3 /* ChapterTableViewController.swift */,
+				DECEB2951B2E20B00073BCC3 /* ImageViewController.swift */,
+				DECEB2961B2E20B00073BCC3 /* SearchViewController.swift */,
+				DECEB2711B2E20980073BCC3 /* AppDelegate.swift */,
+				DECEB29A1B2E20D30073BCC3 /* LaunchScreen.xib */,
+				DECEB29C1B2E20D30073BCC3 /* Main.storyboard */,
+				DECEB27B1B2E20980073BCC3 /* Images.xcassets */,
+				DECEB2731B2E20980073BCC3 /* Rufus.xcdatamodeld */,
+				DECEB26F1B2E20980073BCC3 /* Supporting Files */,
+			);
+			path = Rufus;
+			sourceTree = "<group>";
+		};
+		DECEB26F1B2E20980073BCC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECEB2701B2E20980073BCC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DECEB2871B2E20980073BCC3 /* RufusTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECEB28A1B2E20980073BCC3 /* RufusTests.swift */,
+				DECEB2881B2E20980073BCC3 /* Supporting Files */,
+			);
+			path = RufusTests;
+			sourceTree = "<group>";
+		};
+		DECEB2881B2E20980073BCC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECEB2891B2E20980073BCC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECEB26B1B2E20980073BCC3 /* Rufus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECEB28E1B2E20980073BCC3 /* Build configuration list for PBXNativeTarget "Rufus" */;
+			buildPhases = (
+				DECEB2681B2E20980073BCC3 /* Sources */,
+				DECEB2691B2E20980073BCC3 /* Frameworks */,
+				DECEB26A1B2E20980073BCC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rufus;
+			productName = Rufus;
+			productReference = DECEB26C1B2E20980073BCC3 /* Rufus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DECEB2831B2E20980073BCC3 /* RufusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECEB2911B2E20980073BCC3 /* Build configuration list for PBXNativeTarget "RufusTests" */;
+			buildPhases = (
+				DECEB2801B2E20980073BCC3 /* Sources */,
+				DECEB2811B2E20980073BCC3 /* Frameworks */,
+				DECEB2821B2E20980073BCC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECEB2861B2E20980073BCC3 /* PBXTargetDependency */,
+			);
+			name = RufusTests;
+			productName = RufusTests;
+			productReference = DECEB2841B2E20980073BCC3 /* RufusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECEB2641B2E20980073BCC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Wesley Sun";
+				TargetAttributes = {
+					DECEB26B1B2E20980073BCC3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DECEB2831B2E20980073BCC3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DECEB26B1B2E20980073BCC3;
+					};
+				};
+			};
+			buildConfigurationList = DECEB2671B2E20980073BCC3 /* Build configuration list for PBXProject "Rufus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECEB2631B2E20980073BCC3;
+			productRefGroup = DECEB26D1B2E20980073BCC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECEB26B1B2E20980073BCC3 /* Rufus */,
+				DECEB2831B2E20980073BCC3 /* RufusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECEB26A1B2E20980073BCC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECEB29F1B2E20D30073BCC3 /* Main.storyboard in Resources */,
+				DECEB29E1B2E20D30073BCC3 /* LaunchScreen.xib in Resources */,
+				DECEB27C1B2E20980073BCC3 /* Images.xcassets in Resources */,
+				DECEB2A11B2E20FE0073BCC3 /* asu_pid.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECEB2821B2E20980073BCC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECEB2681B2E20980073BCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECEB2991B2E20B00073BCC3 /* SearchViewController.swift in Sources */,
+				DECEB2971B2E20B00073BCC3 /* ChapterTableViewController.swift in Sources */,
+				DECEB2721B2E20980073BCC3 /* AppDelegate.swift in Sources */,
+				DECEB2981B2E20B00073BCC3 /* ImageViewController.swift in Sources */,
+				DECEB2751B2E20980073BCC3 /* Rufus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECEB2801B2E20980073BCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECEB28B1B2E20980073BCC3 /* RufusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DECEB2861B2E20980073BCC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECEB26B1B2E20980073BCC3 /* Rufus */;
+			targetProxy = DECEB2851B2E20980073BCC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DECEB29A1B2E20D30073BCC3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECEB29B1B2E20D30073BCC3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DECEB29C1B2E20D30073BCC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECEB29D1B2E20D30073BCC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DECEB28C1B2E20980073BCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = asu_pid.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DECEB28D1B2E20980073BCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = asu_pid.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DECEB28F1B2E20980073BCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rufus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DECEB2901B2E20980073BCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rufus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DECEB2921B2E20980073BCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RufusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rufus.app/Rufus";
+			};
+			name = Debug;
+		};
+		DECEB2931B2E20980073BCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RufusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rufus.app/Rufus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECEB2671B2E20980073BCC3 /* Build configuration list for PBXProject "Rufus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECEB28C1B2E20980073BCC3 /* Debug */,
+				DECEB28D1B2E20980073BCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECEB28E1B2E20980073BCC3 /* Build configuration list for PBXNativeTarget "Rufus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECEB28F1B2E20980073BCC3 /* Debug */,
+				DECEB2901B2E20980073BCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DECEB2911B2E20980073BCC3 /* Build configuration list for PBXNativeTarget "RufusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECEB2921B2E20980073BCC3 /* Debug */,
+				DECEB2931B2E20980073BCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DECEB2731B2E20980073BCC3 /* Rufus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DECEB2741B2E20980073BCC3 /* Rufus.xcdatamodel */,
+			);
+			currentVersion = DECEB2741B2E20980073BCC3 /* Rufus.xcdatamodel */;
+			path = Rufus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DECEB2641B2E20980073BCC3 /* Project object */;
+}
